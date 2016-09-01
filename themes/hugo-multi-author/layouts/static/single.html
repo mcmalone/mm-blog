@@ -3,11 +3,16 @@
 {{ partial "head" . }}
 <body>
 	{{ partial "header" . }}
-	<main>
-		<h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-		<article>
-			{{ .Content }}
-		</article>
-	</main>
+	<div class="site-wrapper">
+		<div class="container">
+			<main>
+				<h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+				<article>
+					{{ .Content }}
+				</article>
+			</main>
+		</div>
+	</div>
+	{{ partial "scripts" . }}
 </body>
 </html>

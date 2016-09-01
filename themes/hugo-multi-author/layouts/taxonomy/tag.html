@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-	{{ partial "head" . }}
+{{ partial "head" . }}
 <body>
 	{{ partial "header" . }}
-		<main>
-			<div>
-				<h1 class="title"><a href="">{{ .Title }}</a></h1>
-				{{ range .Data.Pages }}
-					{{ .Render "summary" }}
-				{{ end }}
+		<div class="site-wrapper">
+			<div class="container">
+				<main>
+					<div>
+						<h1 class="title"><a href="">{{ .Title }}</a></h1>
+						{{ range .Data.Pages }}
+							{{ .Render "summary" }}
+						{{ end }}
+					</div>
+				</main>
 			</div>
-		</main>
+		</div>
+	{{ partial "scripts" . }}
 </body>
 </html>

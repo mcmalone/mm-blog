@@ -3,10 +3,15 @@
 {{ partial "head" . }}
 <body>
 	{{ partial "header" . }}
-	<main>
-		{{ range first 10 .Data.Pages }}
-			{{ .Render "summary" }}
-		{{ end }}
-	</main>
+	<div class="site-wrapper">
+		<div class="container">
+			<main>
+				{{ range first 10 .Data.Pages }}
+					{{ .Render "summary" }}
+				{{ end }}
+			</main>
+		</div>
+	</div>
+	{{ partial "scripts" . }}
 </body>
 </html>

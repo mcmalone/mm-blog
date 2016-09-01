@@ -3,16 +3,21 @@
 {{ partial "head" . }}
 <body>
 	{{ partial "header" . }}
-	<main>
-		<div>
-			<h1 id="title"><a href="">{{ .Title }}</a></h1>
-			<ul>
-				{{ $data := .Data }}
-				{{ range $key, $value := .Data.Terms.ByCount }}
-					<li><a href="{{ $value.Name | urlize }}/">{{ $value.Name }}</a> {{ $value.Count }}</li>
-				{{ end }}
-			</ul>
+	<div class="site-wrapper">
+		<div class="container">
+			<main>
+				<div>
+					<h1 id="title"><a href="">{{ .Title }}</a></h1>
+					<ul>
+						{{ $data := .Data }}
+						{{ range $key, $value := .Data.Terms.ByCount }}
+							<li><a href="{{ $value.Name | urlize }}/">{{ $value.Name }}</a> {{ $value.Count }}</li>
+						{{ end }}
+					</ul>
+				</div>
+			</main>
 		</div>
-	</main>
+	</div>
+	{{ partial "scripts" . }}
 </body>
 </html>
