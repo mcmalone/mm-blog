@@ -4,25 +4,25 @@ languageCode = "en-us"
 theme = "hugo-multi-author"
 
 [taxonomies]
-	tag = "tags"
+  tag = "tags"
 
 [[menu.main]]
-	name = "Home"
-	identifier = "home"
-	weight = 0
-	url = "/"
+  name = "Home"
+  identifier = "home"
+  weight = 0
+  url = "/"
 [[menu.main]]
-	name = "Authors"
-	identifier = "authors"
-	weight = 100
-	url = "/authors/"
+  name = "Authors"
+  identifier = "authors"
+  weight = 100
+  url = "/authors/"
 [[menu.main]]
-	name = "Tags"
-	identifier = "tags"
-	weight = 200
-	url = "/tags/"
+  name = "Tags"
+  identifier = "tags"
+  weight = 200
+  url = "/tags/"
 [[menu.main]]
-	name = "About"
-	identifier = "about"
-	weight = 300
-	url = "/about/"
+  name = "About"
+  identifier = "about"
+  weight = 300
+  url = "/about/"

@@ -2,31 +2,31 @@
 <html>
 {{ partial "head" . }}
 <body>
-	{{ partial "header" . }}
-	<div class="site-wrapper">
-		<div class="container">
-			<main>
-				<h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-				{{ if .Content }}
-				<article>
-					<h2>About</h2>
-					{{ .Content }}
-				</article>
-				{{ end }}
-				<section>
-					<h2 class="posts">Posts</h2>
-					{{ range where .Site.Pages "Params.author" .Title }}
-						{{ .Render "summary" }}
-					{{ end }}
-				</section>
-			</main>
-			<aside class="meta">
-				<section>
-					
-				</section>
-			</aside>
-		</div>
-	</div>
-	{{ partial "scripts" . }}
+  {{ partial "header" . }}
+  <div class="site-wrapper">
+    <div class="container">
+      <main>
+        <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        {{ if .Content }}
+        <article>
+          <h2>About</h2>
+          {{ .Content }}
+        </article>
+        {{ end }}
+        <section>
+          <h2 class="posts">Posts</h2>
+          {{ range where .Site.Pages "Params.author" .Title }}
+            {{ .Render "summary" }}
+          {{ end }}
+        </section>
+      </main>
+      <aside class="meta">
+        <section>
+          
+        </section>
+      </aside>
+    </div>
+  </div>
+  {{ partial "scripts" . }}
 </body>
 </html>

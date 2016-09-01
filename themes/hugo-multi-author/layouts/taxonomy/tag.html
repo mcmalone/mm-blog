@@ -2,19 +2,19 @@
 <html>
 {{ partial "head" . }}
 <body>
-	{{ partial "header" . }}
-		<div class="site-wrapper">
-			<div class="container">
-				<main>
-					<div>
-						<h1 class="title"><a href="">{{ .Title }}</a></h1>
-						{{ range .Data.Pages }}
-							{{ .Render "summary" }}
-						{{ end }}
-					</div>
-				</main>
-			</div>
-		</div>
-	{{ partial "scripts" . }}
+  {{ partial "header" . }}
+    <div class="site-wrapper">
+      <div class="container">
+        <main>
+          <div>
+            <h1 class="title"><a href="">{{ .Title }}</a></h1>
+            {{ range .Data.Pages }}
+              {{ .Render "summary" }}
+            {{ end }}
+          </div>
+        </main>
+      </div>
+    </div>
+  {{ partial "scripts" . }}
 </body>
 </html>
