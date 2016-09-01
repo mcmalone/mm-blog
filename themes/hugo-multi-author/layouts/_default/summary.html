@@ -2,7 +2,7 @@
 	<h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
 	<time class="post-date">{{ .Date.Format "Mon Jan 2, 2006" }}</time> 
 	{{ if .Params.author }}
-		by <a href="{{ .Site.BaseURL }}/authors/{{ .Params.author | urlize }}/">{{ .Params.author }}</a>
+		by <a href="/authors/{{ .Params.author | urlize }}/">{{ .Params.author }}</a>
 	{{ end }}
 	<br>
 	{{ .Summary }}
