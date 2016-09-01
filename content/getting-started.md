@@ -1,5 +1,5 @@
 +++
-title = "Getting Started"
+title = "Getting started"
 author = "Seth MacLeod"
 date = "2016-09-01T02:58:24-04:00"
 tags = [ "Getting Started" ]
