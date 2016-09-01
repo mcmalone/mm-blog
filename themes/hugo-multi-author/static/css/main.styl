@@ -1,0 +1,51 @@
+// Color scheme
+$primary = #222
+$secondary = #FFF
+$tertiary = deepskyblue
+$header-background = $secondary
+$header-primary = $primary
+
+
+body
+  background-color $secondary
+  
+.container
+  max-width 1110px
+  display block
+  margin auto
+
+// General styling
+body
+  color $primary
+a
+  color $tertiary
+blockquote
+  border-left 5px solid $tertiary
+pre, code
+  font-family Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace
+  color darken($primary, .8%)
+  // background lighten($secondary, 8%)
+  background darken($secondary, 8%)
+hr
+  border-top 1px solid #646464
+img
+  display block
+  position relative
+  max-width 100%
+  height auto
+.hidden
+  display none
+
+// Topbar styling
+.navbar-fixed
+  a
+    color $header-primary
+  nav
+    background-color $header-background
+.nav-wrapper
+  max-width 1110px
+  margin auto
+  background-color $header-background
+  font-weight bold
+  .brand-logo
+    font-size 21px

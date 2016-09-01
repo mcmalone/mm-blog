@@ -1,0 +1,50 @@
+body {
+  background-color: #fff;
+}
+.container {
+  max-width: 1110px;
+  display: block;
+  margin: auto;
+}
+body {
+  color: #222;
+}
+a {
+  color: #00bfff;
+}
+blockquote {
+  border-left: 5px solid #00bfff;
+}
+pre,
+code {
+  font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;
+  color: #222;
+  background: #ebebeb;
+}
+hr {
+  border-top: 1px solid #646464;
+}
+img {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+.hidden {
+  display: none;
+}
+.navbar-fixed a {
+  color: #222;
+}
+.navbar-fixed nav {
+  background-color: #fff;
+}
+.nav-wrapper {
+  max-width: 1110px;
+  margin: auto;
+  background-color: #fff;
+  font-weight: bold;
+}
+.nav-wrapper .brand-logo {
+  font-size: 21px;
+}
