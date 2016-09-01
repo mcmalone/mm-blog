@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head" . }}
+<body>
+	{{ partial "header" . }}
+	<main>
+		{{ range first 10 .Data.Pages }}
+			{{ .Render "summary" }}
+		{{ end }}
+	</main>
+</body>
+</html>

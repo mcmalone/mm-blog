@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "head" . }}
+<body>
+	{{ partial "header" . }}
+	<main>
+		<h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+		<article>
+			<h2>About</h2>
+			{{ .Content }}
+		</article>
+		<section>
+			<h2 class="posts">Posts</h2>
+			{{ range where .Site.Pages "Params.author" .Title }}
+				{{ .Render "summary" }}
+			{{ end }}
+		</section>
+	</main>
+	<aside class="meta">
+		<section>
+			
+		</section>
+	</aside>
+</body>
+</html>
