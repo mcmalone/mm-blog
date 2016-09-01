@@ -13,6 +13,7 @@ This is a simple multi-author blog theme for the [Hugo](http://gohugo.io/) stati
 - Support for static pages (e.g. about page)
 - Support for tags
 - [Materialize](http://materializecss.com/) framework
+- [Stylus](http://stylus-lang.com/) Preprocessor
 
 ## Installation
 
