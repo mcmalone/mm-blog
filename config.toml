@@ -1,0 +1,4 @@
+baseurl = "http://hugo-multi-author.netlify.com"
+title = "Hugo Multi-Author"
+languageCode = "en-us"
+theme = "hugo-multi-author"
