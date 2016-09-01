@@ -12,12 +12,17 @@ theme = "hugo-multi-author"
 	weight = 0
 	url = "/"
 [[menu.main]]
+	name = "Authors"
+	identifier = "authors"
+	weight = 100
+	url = "/authors/"
+[[menu.main]]
 	name = "Tags"
 	identifier = "tags"
-	weight = 100
+	weight = 200
 	url = "/tags/"
 [[menu.main]]
 	name = "About"
 	identifier = "about"
-	weight = 200
+	weight = 300
 	url = "/about/"
