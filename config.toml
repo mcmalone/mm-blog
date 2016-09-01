@@ -2,3 +2,17 @@ baseurl = "http://hugo-multi-author.netlify.com"
 title = "Hugo Multi-Author"
 languageCode = "en-us"
 theme = "hugo-multi-author"
+
+[taxonomies]
+	tag = "tags"
+
+[[menu.main]]
+	name = "Home"
+	identifier = "home"
+	weight = 0
+	url = "/"
+[[menu.main]]
+	name = "About"
+	identifier = "about"
+	weight = 100
+	url = "/about/"
