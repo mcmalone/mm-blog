@@ -2,6 +2,7 @@
 url = "/authors/"
 title = "Authors"
 date = "2016-09-01T12:33:53-04:00"
+summary = "hide"
 
 +++
 

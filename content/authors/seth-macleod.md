@@ -1,6 +1,7 @@
 +++
 title = "Seth MacLeod"
 date = "2016-09-01T01:24:38-04:00"
+summary = "hide"
 
 +++
 

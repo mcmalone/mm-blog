@@ -2,6 +2,7 @@
 date = "2016-09-01T01:21:22-04:00"
 url = "/about/"
 title = "About"
+summary = "hide"
 
 +++
 

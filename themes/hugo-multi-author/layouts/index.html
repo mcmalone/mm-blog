@@ -6,9 +6,11 @@
   <div class="site-wrapper">
     <div class="container">
       <main>
-        {{ range first 10 .Data.Pages }}
+        {{ $paginator := .Paginate (where .Data.Pages "Params.summary" "!=" "hide") }}
+        {{ range .Paginator.Pages }}
           {{ .Render "summary" }}
         {{ end }}
+        {{ template "_internal/pagination.html" . }}
       </main>
     </div>
   </div>

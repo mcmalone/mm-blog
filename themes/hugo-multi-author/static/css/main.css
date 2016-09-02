@@ -48,3 +48,13 @@ img {
 .nav-wrapper .brand-logo {
   font-size: 21px;
 }
+.pagination li:first-child,
+.pagination li:last-child {
+  display: none;
+}
+.pagination li.active {
+  background-color: #00bfff;
+}
+.pagination li a {
+  color: #00bfff;
+}
