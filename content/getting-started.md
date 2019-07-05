@@ -1,6 +1,6 @@
 +++
 title = "Getting started"
-author = "Seth MacLeod"
+author = "Mason C. Malone"
 date = "2016-09-01T02:58:24-04:00"
 tags = [ "Getting Started" ]
 

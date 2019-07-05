@@ -1,5 +1,5 @@
 +++
-author = "Seth MacLeod"
+author = "Michelle Q. Tran"
 date = "2016-09-01T12:11:11-04:00"
 tags = [
   "Getting Started",
