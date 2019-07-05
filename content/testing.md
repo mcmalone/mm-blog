@@ -2,7 +2,7 @@
 title = "Here we go "
 author = ""
 date = ""
-tags = [""]
+tags = ["data","science"]
 +++
 
 Testing. 
