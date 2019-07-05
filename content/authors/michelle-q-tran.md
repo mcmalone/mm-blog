@@ -1,6 +1,6 @@
 +++
-title = "Michelle Q. Tran "
+title = "Michelle Q. Tran"
 date = ""
-summary = "show"
+summary = "hide"
 +++
 This is Michelle Q. Tran.

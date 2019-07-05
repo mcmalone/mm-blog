@@ -1,6 +1,6 @@
 +++
-title = "Mason C. Malone "
+title = "Mason C. Malone"
 date = ""
-summary = "show"
+summary = "hide"
 +++
 This is Mason C. Malone.
